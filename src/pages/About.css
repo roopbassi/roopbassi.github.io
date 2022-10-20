@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.skills{
+    background-color:rgb(241, 241, 241); 
+}
+h1{
+    padding-top: 6rem;
+    font-size: 40px;
+}
+.skills__subheader{
+    padding-top: 0.7rem;
+    padding-bottom: 4rem;
+    color: grey;
+}
+.skills__container {
+    display: flex;
+    column-gap: 3rem;
+    justify-content: center;
+    padding-bottom: 7rem;
+}
+.skills__content {
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 255, 255);
+    padding: 2rem 4rem;
+    border-radius: 1.25rem;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.skills__title{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.skills__box {
+    display: flex;
+    justify-content: center;
+    column-gap: 2.5rem;   
+}
+.skills__data h3 {
+    column-gap: 0.5rem;
+    font-weight: 500;
+    font-size: 15px;
+}
+.skills__group {
+    display: grid;
+    align-items: flex-start;
+    row-gap: 0.5rem;
+}
+.skills__title svg {
+    font-size: 23px;
+}
+@media screen and (max-width: 1100px){
+    .skills__container{
+        display: inline-block;
+    }
+    .skills__content{
+        margin: 20px;
+    }
+}

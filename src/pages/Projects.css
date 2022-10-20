@@ -1,0 +1,100 @@
+.projects {
+    background-color:rgb(241, 241, 241); 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+  }
+  .projects .projectTitle {
+    text-align: center;
+    color: #3e497a;
+    font-size: 60px;
+    font-weight: bolder;
+    text-decoration: none;
+  }
+  .projectList {
+    width: 1100px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    text-decoration: none;
+
+  }
+    
+  .projectItem {
+    border-radius: 15px;
+    width: 265px;
+    height: 265px;
+    margin: 40px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    text-decoration: none;
+  }
+  .projectItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .projectItem .bgImage {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-decoration: none;
+  }
+  .projects h1{
+    padding-top: 3rem;
+    font-size: 40px;
+  }
+  .project__name{
+    margin: 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;    
+  }
+  .projects__subheader{
+    padding-top: 0.7rem;
+    padding-bottom: 1rem;
+    color: grey;
+  }
+  .projects__ending {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .projects__icon svg{
+    color: black;
+    font-size: 40px;
+  }
+  .projects__icon:hover svg{
+    color: #3e497a;
+    transition: transform .2s;
+    transform: scale(1.2);
+  }
+  @media only screen and (max-width: 1300px) {
+    .projectList {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+  @media only screen and (max-width: 1100px) {
+    .projectList {
+      grid-template-columns: 1fr;
+    }
+  }
+  @media only screen and (max-width: 800px) {
+    .projectList {
+      width: 100%;
+    }
+    .projectItem {
+      width: 300px;
+      height: 300px;
+    }
+  }

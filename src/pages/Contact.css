@@ -1,0 +1,21 @@
+.contact {
+    background-color:rgb(241, 241, 241); 
+}
+.contact__header{
+    padding-top: 9rem;
+    font-size: 40px;
+}
+.contact__subheader{
+    padding-top: 0.7rem;
+    color: grey;
+}
+.icons svg{
+    font-size: 60px;
+    margin: 5px;
+    color: #000000;
+    margin: 50px 10px;
+}
+.icons:hover svg{
+    transition: transform .2s;
+    transform: scale(1.2);
+}
