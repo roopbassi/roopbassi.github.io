@@ -3,6 +3,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 import { Link } from '@mui/material';
+import Pdf from '../assets/resume-roop.pdf';
 import "./Home.css";
 
 function Home() {
@@ -14,7 +15,7 @@ function Home() {
           <p>University student & teaching assistant.</p>
           <Link className = "icon" href = "https://www.linkedin.com/in/roop-b-83496a207/"><LinkedInIcon/></Link>
           <Link className = "icon" href= "https://github.com/roopbassi"><GitHubIcon/></Link> 
-          <Link className = "icon" href= ""><InsertDriveFileIcon /></Link>
+          <Link className = "icon" href= {Pdf}><InsertDriveFileIcon /></Link>
         </div>
       </div>
     </div>

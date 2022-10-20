@@ -15,7 +15,7 @@ function Projects() {
       <p className = "projects__subheader">Some projects that I created so far</p>
       <div className="projectList">
         <Link href= "https://github.com/roopbassi/Discord-Joke-Bot"><ProjectItem name = "Discord Bot" image = {Discord}/></Link>
-        <Link href= "https://github.com/roopbassi/"><ProjectItem name = "Personal Website" image = {Website}/></Link>
+        <Link href= "https://github.com/roopbassi/roopbassi.github.io"><ProjectItem name = "Personal Website" image = {Website}/></Link>
         <Link href= "https://github.com/roopbassi/WLU-Bookmark-Extension"><ProjectItem name = "Chrome Extension" image = {Extension}/></Link>
       </div>
       <p className = "projects__ending">Check out more projects on my GitHub!</p>

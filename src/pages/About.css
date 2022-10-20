@@ -4,6 +4,13 @@
 }
 .skills{
     background-color:rgb(241, 241, 241); 
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
 }
 h1{
     padding-top: 6rem;
