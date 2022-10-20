@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.748ad9a9.css",
-    "main.js": "/static/js/main.8644a559.js",
+    "main.css": "/static/css/main.1e1dbf1f.css",
+    "main.js": "/static/js/main.5a26cc02.js",
+    "static/media/resume-roop.pdf": "/static/media/resume-roop.fe157dde287af550838e.pdf",
     "static/media/website.jpg": "/static/media/website.73f0cdcdb5999faa1b81.jpg",
     "static/media/discord-logo.jpg": "/static/media/discord-logo.bc47465c6366b538a94c.jpg",
     "static/media/chrome-extension.jpg": "/static/media/chrome-extension.69d29d96519afe22e626.jpg",
     "index.html": "/index.html",
-    "main.748ad9a9.css.map": "/static/css/main.748ad9a9.css.map",
-    "main.8644a559.js.map": "/static/js/main.8644a559.js.map"
+    "main.1e1dbf1f.css.map": "/static/css/main.1e1dbf1f.css.map",
+    "main.5a26cc02.js.map": "/static/js/main.5a26cc02.js.map"
   },
   "entrypoints": [
-    "static/css/main.748ad9a9.css",
-    "static/js/main.8644a559.js"
+    "static/css/main.1e1dbf1f.css",
+    "static/js/main.5a26cc02.js"
   ]
 }
